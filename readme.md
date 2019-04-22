@@ -10,7 +10,7 @@ A lightweight browser companion for zx2c4's [Password Store](https://passwordsto
 ## Features
 - Clean and simple interface
 - No dependency hell, Bootstrap 4 for css and Material Icons are the only external things used.
-- Supports OTP, you an hide the button too!
+- Supports OTP, you can hide the button too!
 - Source is somewhat readable
 
 ## Planned features/improvements

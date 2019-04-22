@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pass Companion</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <div class="container-flex enforce-size">
+            <div class="pass-header" href="#">Pass Companion …</div>
+            <div class="pass-input input-group mb-3 sticky-top no-margin-bottom" id="input-query">
+                <!--<div class="input-group-prepend">
+                    <span class="input-group-text" id="input-group">undefined</span>
+                </div><!---->
+                <input id="pass-query" type="text" class="form-control no-radius input-flush no-focus" placeholder="Define Search…" autofocus>
+                <div class="input-group-append">
+                    <span class="input-group-text pass-spinner">
+                        <div class="spinner-grow" role="status">
+                            <span class="sr-only">Loading…</span>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div id="pass-permissions" hidden>
+                <div class="alert alert-dark no-margin-bottom pass-alert" role="alert">
+                    <p>Pass Companion <a target="_blank" rel="noopener noreferrer" href="https://github.com/kakolisgay/pass-companion">requires some setup</a> before use.</p>
+
+                    <div class="text-center"><button type="button" class="btn btn-secondary mx-auto" id="pass-permissions-request">Okay</button></div>
+                </div>
+            </div>
+
+            <div id="pass-events"></div>
+            <div class="list-group list-group-flush" id="pass-results" hidden></div>
+        </div>
+        <script async src="../js/banner.js"></script>
+        <script src="../js/popup.js"></script>
+    </body>
+</html>

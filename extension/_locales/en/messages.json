@@ -1,0 +1,13 @@
+{
+    "extension_name": {
+        "message": "Pass Companion"
+    },
+
+    "extension_short_name": {
+        "message": "Pass"
+    },
+
+    "extension_description": {
+        "message": "A lightweight browser companion for zx2c4's Password Store."
+    }
+}

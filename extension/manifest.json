@@ -1,0 +1,28 @@
+{
+    "browser_action": {
+        "default_title": "__MSG_extension_name__",
+        "default_popup": "assets/src/popup.html"
+    },
+    "description": "__MSG_extension_description__",
+    "default_locale": "en",
+    "homepage_url": "https://github.com/kakolisgay/pass-companion",
+    "manifest_version": 2,
+    "icons": {
+        "16": "assets/icons/favicon_16.png",
+        "48": "assets/icons/favicon_48.png",
+        "128": "assets/icons/favicon_128.png"
+    },
+    "incognito": "spanning",
+    "name": "Pass Companion",
+    "update_url": "https://raw.githubusercontent.com/kakolisgay/pass-companion/master/update.xml",
+    "offline_enabled": true,
+    "optional_permissions": [ "activeTab", "nativeMessaging" ],
+    "options_ui": {
+        "page": "assets/src/options.html",
+        "open_in_tab": false,
+        "chrome_style": true
+    },
+    "short_name": "__MSG_extension_short_name__",
+    "version": "0.0.1",
+    "version_name": "0.0.1"
+}

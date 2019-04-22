@@ -1,0 +1,13 @@
+{
+    "name": "pass-companion",
+    "description": "A lightweight browser companion for zx2c4's Password Store.",
+    "license": "MIT",
+    "author": "Kakol <https://gitlab.com/Kakol>",
+    "scripts": {
+        "assets":       "npm run get-css && npm run get-fonts",
+        "get-css":      "cd extension/assets/css && wget 'https://raw.githubusercontent.com/twbs/bootstrap/master/dist/css/bootstrap.min.css'",
+        "get-fonts":    "cd extension/assets/fonts && wget 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.woff' 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.woff2' 'https://raw.githubusercontent.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.ttf'",
+        "build":        "chromium-browser --pack-extension=$PWD/extension --pack-extension-key=$PWD/extension.pem"
+    }
+}
+

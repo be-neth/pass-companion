@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+    url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #495057;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
+.enforce-size {
+    width: 20em;
+}
+
+.enforce-size-options {
+    width: 50em;
+}
+
+.list-group-flush {
+    border-top: 1em
+    border-bottom: 0em
+}
+
+.list-group-flush > :first-child {
+    border-top: 0em
+}
+
+.no-radius {
+    border-radius: 0rem;
+}
+
+.list-flush {
+    margin-bottom: -0.4em;
+}
+
+.list-slim-button {
+    cursor: pointer;
+    -webkit-appearance: button-bevel;
+    border: 0px;
+    padding: 0rem 0rem; 
+}
+
+.input-flush {
+    border: 0px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0em!important;
+}
+
+.no-focus:focus {
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) inset, 0 0 0px rgba(0, 0, 0, 0);
+    outline: 0 none;
+}
+
+.pass-header {
+    /* Ode to gorhill :) */
+    background-color: #444;
+    color: #bbb;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.pass-alert {
+    border-radius: 0rem;
+}
+
+.pass-spinner {
+    background-color: inherit;
+    border: 0px;
+    border-radius: 0rem;
+    padding: 0em 0.7em 0em 0em;
+    border-radius: 0rem;
+}
+
+.pass-spinner > :first-child {
+    height: 1rem;
+    width: 1rem;
+}
+
+.center { text-align: center; }
+.center > :first-child { display: inline-block; }
+

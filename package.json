@@ -2,7 +2,7 @@
     "name": "pass-companion",
     "description": "A lightweight browser companion for zx2c4's Password Store.",
     "license": "MIT",
-    "author": "Kakol <https://gitlab.com/Kakol>",
+    "author": "Kakol (https://github.com/kakolisgay)",
     "scripts": {
         "assets":       "npm run get-css && npm run get-fonts",
         "get-css":      "cd extension/assets/css && wget 'https://raw.githubusercontent.com/twbs/bootstrap/master/dist/css/bootstrap.min.css'",

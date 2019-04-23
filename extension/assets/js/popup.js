@@ -110,7 +110,7 @@ else {
     void async function () {
         const { setResultsView } = await import('./utils.mjs')
         document.getElementById('pass-permissions-request').addEventListener('click', async function (event) {
-            const permission = { 'permissions': ['nativeMessaging'] }
+            const permission = { 'permissions': ['activeTab', 'nativeMessaging'] }
             return chrome.permissions.request(permission, function (granted) {
                 if (granted)
                     return location.reload()

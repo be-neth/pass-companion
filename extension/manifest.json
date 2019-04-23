@@ -13,7 +13,7 @@
         "128": "assets/icons/favicon_128.png"
     },
     "incognito": "spanning",
-    "name": "Pass Companion",
+    "name": "__MSG_extension_name__",
     "update_url": "https://raw.githubusercontent.com/kakolisgay/pass-companion/master/update.xml",
     "offline_enabled": true,
     "optional_permissions": [ "activeTab", "nativeMessaging" ],
@@ -23,6 +23,6 @@
         "chrome_style": true
     },
     "short_name": "__MSG_extension_short_name__",
-    "version": "0.0.1",
-    "version_name": "0.0.1"
+    "version": "0.0.2",
+    "version_name": "0.0.2"
 }

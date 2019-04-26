@@ -32,7 +32,7 @@ For special snowflakes like yourself, there's an option in settings to hide the 
 See below.
 
 ### My Password Store is stored somewhere other than `~/.password-store`!
-Use a syslink. `ln -s "~/Documents/Git Projects/Password Store" "~/.password-store"`
+Use a symlink. `ln -s "~/Documents/Git Projects/Password Store" "~/.password-store"`
 
 ### Where to complain <small>(If you are a browserpass user)</small>
 - [browserpass/browserpass#322 Storing OTP together with password diminishes the purpose of 2FA, why not remove this functionality?](https://github.com/browserpass/browserpass/issues/322)
